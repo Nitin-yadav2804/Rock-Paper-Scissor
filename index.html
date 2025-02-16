@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rock &nbsp;Paper &nbsp;Scissor</h1>
+    <div class="images">
+        <div class="image" id="rock">
+            <img src="Images/rock.webp" alt="Rock">
+        </div>
+        <div class="image" id="paper">
+            <img src="Images/paper.webp" alt="Paper">
+        </div>
+        <div class="image" id="scissor">
+            <img src="Images/scissor.webp" alt="Scissor">
+        </div>
+    </div>
+    <div class="scores">
+        <table border="2" cellpadding="5" cellspacing="5">
+            <tr style="padding: 5rem;">
+                <th id="your-score">0</th>
+                <th id="comp-score">0</th>
+            </tr>
+            <tr>
+                <td>You</td>
+                <td>Computer</td>
+            </tr>
+        </table>
+    </div>
+    <div class="msg-container">
+        <h2 id="msg">Select Your Move</h2><br>
+        <h2 id="result"></h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
